@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 20px 25px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    margin-top: 15px;
+    gap: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+    position: sticky;
+    top: 74px;
+    background-color: white;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+.option-map {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-bar {
+    width: 800px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar input {
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 100%;
+}
+
+.search-bar .search-icon {
+    background-color: #002F34;
+    fill: white;
+    width: 50px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sell-btn {
+    background-color: transparent;
+    border: 0;
+    background-image: url("https://www.olx.com.pk/assets/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg");
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100px;
+    height: 45px;
+    background-size: contain;
+}
+
+.login-btn {
+    background-color: transparent;
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom: 3px solid black;
+}
+
+.login-btn:hover {
+    border: 0px !important;
+}
+
+.categories {
+    width: 100%;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.categories img {
+    width: 15px;
+}
+
+.categories span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.categories span:first-child {
+    font-weight: 600;
+}
+
+.ads {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.all-categories {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+    padding-left: 40px;
+    gap: 20px;
+}
+
+.all-categories div {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.all-categories img {
+    width: 90px;
+}
+
+.all-categories h3 {
+    font-size: 16px;
+}
+
+.heading {
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.main-container {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+
+.content {
+    padding: 12px;
+}
+
+.card div img {
+    width: 25px;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card span {
+    display: block;
+    color: #a1a1a1;
+    font-size: 14px;
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
