@@ -1,0 +1,22 @@
+/* *{
+    color: red;
+} */
+
+
+/* span{
+    color: blue;
+} */
+
+h1 {
+    color: blue;
+}
+
+.text {
+    color: red;
+}
+
+#bye-text {
+    color: green;
+    background-color: #679716;
+    background-color: rgb(100, 255, 50);
+}
