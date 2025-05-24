@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-family: "Nunito";
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline double;
+}

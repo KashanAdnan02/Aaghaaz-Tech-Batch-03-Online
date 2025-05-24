@@ -1,0 +1,12 @@
+body {
+    background-color: rgba(36, 36, 36, 0.9);
+}
+
+h1 {
+    color: #2eae07;
+    opacity: 0.1;
+}
+
+h2 {
+    color: rgb(255, 55, 150);
+}
