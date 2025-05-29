@@ -1,0 +1,29 @@
+ul {
+    width: 150px;
+}
+
+li {
+    margin: 10px;
+}
+
+ul.illuminations {
+    list-style-position: outside;
+}
+
+ul.season {
+    list-style-position: inside;
+}
+
+td {
+    background-color: #0088dd;
+    padding: 15px;
+    border: 2px solid #000000;
+}
+
+table.one {
+    /* border-spacing: 5px 15px; */
+}
+
+table.two {
+    border-collapse: collapse;
+}
