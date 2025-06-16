@@ -7,9 +7,20 @@
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: black;
     padding: 10px 20px;
     color: aliceblue;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
 }
 
 .navbar .fa-house,
@@ -42,4 +53,210 @@
 
 .navbar input::placeholder {
     color: white;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-container p {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.text-container p:hover {
+    color: white;
+    /* font-size: 18px; */
+    transform: scale(110%);
+}
+
+.line {
+    width: 2px;
+    height: 30px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+
+.install {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
+    cursor: pointer;
+    margin: 0 20px;
+    font-size: 15px;
+    font-weight: 600;
+    transition-duration: 0.1s;
+}
+
+.install:hover {
+    color: white;
+    /* font-size: 18px; */
+    transform: scale(105%);
+}
+
+.signUp {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition-duration: 0.1s;
+}
+
+.signUp:hover {
+    color: white;
+    /* font-size: 18px; */
+    transform: scale(105%);
+}
+
+.login {
+    background-color: white;
+    color: black;
+    border: 0;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition-duration: 0.5s;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.login:hover {
+    /* color: white; */
+    /* font-size: 18px; */
+    transform: scale(105%);
+    background-color: rgba(255, 255, 255, 0.934);
+}
+
+.container {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.sidebar {
+    background-color: rgba(255, 255, 255, 0.08);
+    width: 25%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.main-section {
+    width: 75%;
+}
+
+.library-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.sidebar h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.playlist-section {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.playlist-section p {
+    margin: 10px 0;
+}
+
+.playlist-section button {
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.footer-section {
+    width: 100%;
+    padding: 10px;
+}
+
+.footer-section span {
+    font-size: 14px;
+    color: rgb(133, 133, 133);
+    margin-right: 20px;
+}
+
+.footer-section button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+.main-section {
+    background-color: rgba(255, 255, 255, 0.08);
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.main-section .trending-songs .songs-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.songs-container .song {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.song img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.popular-artist {
+    margin-top: 20px;
+}
+
+.artists-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.artist {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.artist img {
+    border-radius: 50%;
+    width: 100%;
 }
