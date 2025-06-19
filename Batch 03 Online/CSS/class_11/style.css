@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: blue;
+    height: 90px;
+    padding: 10px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: pink;
+    height: 800px;
+}
+
+.main {
+    width: 80%;
+    height: 800px;
+    background-color: green;
+}
+
+.section {
+    display: flex;
+}
+
+@media (max-width : 400px) {
+    .navbar {
+        background-color: red;
+    }
+
+    .main {
+        background-color: yellow;
+        width: 60%;
+    }
+
+    .sidebar {
+        background-color: brown;
+        width: 40%;
+    }
+}
+
+
+@media (min-width:700px) {
+    .navbar {
+        background-color: skyblue !important;
+    }
+}
