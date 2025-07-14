@@ -39,7 +39,7 @@ var age = 13
 
 // fruits[4] = "watermelon"
 
-// console.log(fruits)
+// console.log(fruits)s
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 fruits[fruits.length] = "Kiwi";
