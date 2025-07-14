@@ -41,6 +41,9 @@ var age = 13
 
 // console.log(fruits)
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
 fruits[fruits.length] = "Kiwi";
+
 delete fruits[fruits.length]
+
 console.log(fruits)
